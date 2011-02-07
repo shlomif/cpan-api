@@ -7,6 +7,10 @@ with 'MooseX::Getopt';
 with 'MetaCPAN::Role::Common';
 with 'MetaCPAN::Role::DB';
 
+# This is to settle Module::Build - we don't have to upgrade it for the time
+# being until we make more frequent CPAN releases.
+our $VERSION = '0.0.1';
+
 use Archive::Tar;
 use CPAN::DistnameInfo;
 use Data::Dump qw( dump );

@@ -56,7 +56,6 @@ my $build = Module::Build->new(
         'XML::Simple' => '0',
         'YAML' => '0',
     },
-    dist_version_from => "lib/Test/Run/Core.pm",
     license => "perl",
     create_makefile_pl => 'traditional',
     meta_merge =>
